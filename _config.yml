@@ -44,10 +44,10 @@ author:
       url: "https://github.com/karthikprabhu22"
 
 # Build settings
-theme: minimal-mistakes-jekyll
+theme: "minimal-mistakes-jekyll"
 plugins:
   - jekyll-feed
-
+  - jekyll-include-cache
 header_pages:
   - research.md
   - publications.md
