@@ -27,11 +27,36 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: karthikprabhu22
 github_username:  karthikprabhu22
 
+author:
+  name: "Karthik Prabhu Palimar"
+  avatar: "pic.jpg"
+  bio: "Your bio here"
+  location: "Davis, USA"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:karthikprabhu22@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/kprabhu22"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/karthikprabhu22"
+
 # Build settings
 theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
 
+header_pages:
+  - research.md
+  - publications.md
+  - talks.md
+  - teaching.md
+  - outreach.md
+  - philosophy.md
+  - cv.md
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
