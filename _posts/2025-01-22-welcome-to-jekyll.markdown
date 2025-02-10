@@ -1,29 +1,16 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to My Website"
 date:   2025-01-22 13:52:23 -0500
-categories: jekyll update
+categories: general
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+I am a PhD candidate in Physics at UC Davis, specializing in theoretical cosmology and statistical data analysis. My academic journey began with a master’s degree in Natural Sciences from IISER Pune, where I cultivated a passion for theoretical cosmology, particularly the Cosmic Microwave Background.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+My current research focuses on leveraging Bayesian inference and generative models to explore complex phenomena in cosmology. Highlights of my work include:
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Developing a Variational Autoencoder-based model for Galactic dust to enhance cosmic microwave background (CMB) analysis.
+Utilizing denoising diffusion models to study the cosmic infrared background, uncovering detailed non-Gaussian structures.
+Utilizing a GPU-accelerated Bayesian parameter estimation pipeline, designed for analyzing high-resolution maps with millions of pixels.
+Beyond research, I am committed to science communication and mentorship, regularly presenting at conferences like the American Physical Society meeting and engaging with public audiences through events like Astronomy on Tap. 
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
