@@ -9,8 +9,8 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Karthik Prabhu Palimar",
     "section": "",
-    "text": "About this site"
+    "text": "about: template: jolla image: KP.jpg links: - icon: linkedin text: LinkedIn href: https://linkedin.com/in/kprabhu22 - icon: github text: Github href: https://github.com/Karthikprabhu22/ - icon: email text: Email href: mailto:karthikprabhu22@gmail.com"
   }
 ]
