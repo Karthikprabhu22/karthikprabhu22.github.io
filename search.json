@@ -46,83 +46,13 @@
     "href": "index.html",
     "title": "Karthik Prabhu Palimar",
     "section": "",
-    "text": "I am a Ph.D. candidate in Physics at the University of California, Davis, specializing in theoretical cosmology and machine learning-driven astrophysical modeling. Under the supervision of Prof. Lloyd Knox, my research focuses on advancing precision in Cosmic Microwave Background (CMB) analysis through generative models and statistical inference frameworks.\n\nEducation\nUniversity of California, Davis | Davis, CA PhD in Physics | Sept 2018 - June 2025\nIndian Institute of Science Education and Research | Pune, India B.S.-M.S. in Natural Sciences | Aug 2013 - May 2018"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Karthik Prabhu Palimar",
-    "section": "",
-    "text": "Karthik Prabhu Palimar is a Ph.D. candidate in Physics at the University of California, Davis, specializing in theoretical cosmology and machine learning-driven astrophysical modeling. Under the supervision of Prof. Lloyd Knox, his research focuses on advancing precision in Cosmic Microwave Background (CMB) analysis through generative models and statistical inference frameworks.\nAs a member of the SPT-3G Collaboration, he develops scalable computational pipelines to disentangle astrophysical foregrounds from CMB signals, employing techniques such as variational autoencoders (VAEs) and diffusion models (DDPMs) to simulate complex astrophysical emissions. His work enhances the accuracy of temperature, polarization, and gravitational lensing measurements, directly supporting cosmological investigations into dark matter and the early universe.\nKarthik’s interdisciplinary approach bridges physics, high-performance computing, and machine learning, with a focus on translating theoretical insights into robust, data-driven solutions for next-generation astrophysical surveys.\n\n\n\n\n\nUniversity of California, Davis | Davis, CA PhD in Physics | Sept 2018 - June 2025\nIndian Institute of Science Education and Research | Pune, India B.S.-M.S. in Natural Sciences | Aug 2013 - May 2018"
-  },
-  {
-    "objectID": "about.html#bio",
-    "href": "about.html#bio",
-    "title": "Karthik Prabhu Palimar",
-    "section": "",
-    "text": "Karthik Prabhu Palimar is a Ph.D. candidate in Physics at the University of California, Davis, specializing in theoretical cosmology and machine learning-driven astrophysical modeling. Under the supervision of Prof. Lloyd Knox, his research focuses on advancing precision in Cosmic Microwave Background (CMB) analysis through generative models and statistical inference frameworks.\nAs a member of the SPT-3G Collaboration, he develops scalable computational pipelines to disentangle astrophysical foregrounds from CMB signals, employing techniques such as variational autoencoders (VAEs) and diffusion models (DDPMs) to simulate complex astrophysical emissions. His work enhances the accuracy of temperature, polarization, and gravitational lensing measurements, directly supporting cosmological investigations into dark matter and the early universe.\nKarthik’s interdisciplinary approach bridges physics, high-performance computing, and machine learning, with a focus on translating theoretical insights into robust, data-driven solutions for next-generation astrophysical surveys."
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "Karthik Prabhu Palimar",
-    "section": "",
-    "text": "University of California, Davis | Davis, CA PhD in Physics | Sept 2018 - June 2025\nIndian Institute of Science Education and Research | Pune, India B.S.-M.S. in Natural Sciences | Aug 2013 - May 2018"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Download PDF Version{: .btn .btn–primary .btn–small}"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum Vitae",
-    "section": "Education",
-    "text": "Education\nPh.D. in Physics (Expected 2025)\nUniversity of California, Davis\nGPA: 3.91/4.0\n- Dissertation: “Advanced Machine Learning Techniques in Cosmological Data Analysis”\nM.S. in Physics (2021)\nUniversity of California, Davis\nGPA: 3.91/4.0\nBS-MS in Physics & Mathematics (2018)\nIndian Institute of Science Education and Research, Pune\nGPA: 9.0/10.0"
-  },
-  {
-    "objectID": "cv.html#professional-experience",
-    "href": "cv.html#professional-experience",
-    "title": "Curriculum Vitae",
-    "section": "Professional Experience",
-    "text": "Professional Experience\nDoctoral Researcher\nUC Davis Cosmology Group | Sep 2018–Present - Developed GPU-accelerated Bayesian inference pipelines using PyTorch/CUDA - Implemented generative models (DDPMs) reducing simulation time by 40% - Led cross-functional team to integrate ML solutions into CMB analysis workflows - Authored 2 first-author publications with 50+ citations"
-  },
-  {
-    "objectID": "cv.html#technical-skills",
-    "href": "cv.html#technical-skills",
-    "title": "Curriculum Vitae",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\nMachine Learning\n- Generative Models: VAEs, DDPMs, RAG - Frameworks: PyTorch, TensorFlow, HuggingFace - Techniques: Bayesian Optimization, MCMC\nData Engineering\n- Big Data: Polars, Spark, AWS (S3/EC2) - Visualization: Matplotlib, Plotly, Tableau - Databases: SQL, Pandas\nScientific Computing\n- Languages: Python, Julia, C++ - HPC: MPI, CUDA, Slurm - Tools: JAX, NumPy, Pandas"
-  },
-  {
-    "objectID": "cv.html#selected-projects",
-    "href": "cv.html#selected-projects",
-    "title": "Curriculum Vitae",
-    "section": "Selected Projects",
-    "text": "Selected Projects\nCosmic Infrared Background Analysis\n- Built diffusion models for modelling the cosmic infrared background - Achieved 15% improvement in signal reconstruction\nReddit Post Recommendation System\n- Developed RAG pipeline with 5.5M document retrieval - Won 1st place in Erdös Institute Bootcamp"
+    "text": "I am a Ph.D. candidate in Physics at the University of California, Davis, specializing in theoretical cosmology and machine learning-driven astrophysical modeling. Under the supervision of Prof. Lloyd Knox, my research focuses on advancing precision in Cosmic Microwave Background (CMB) analysis through generative models and statistical inference frameworks.\n\nEducation\nUniversity of California, Davis | Davis, CA PhD in Physics Sept 2018 - June 2025\nIndian Institute of Science Education and Research | Pune, India B.S.-M.S. in Natural Sciences Aug 2013 - May 2018"
   },
   {
     "objectID": "papers.html",
     "href": "papers.html",
     "title": "Research Publications",
     "section": "",
-    "text": "Testing the ΛCDM Cosmological Model with SPT-3G arXiv:2403.17925\n\n\n\nK. Prabhu Palimar et al.\nDeveloped novel Bayesian hierarchical models to analyze CMB data from SPT-3G, achieving up to ×2 tighter constraints on cosmological parameters like \\(H_0\\) and \\(\\Omega_b h^2\\) compared to Planck. Demonstrated potential to resolve cosmological tensions using high-resolution polarization and lensing measurements.\n\n\n\nSPT-3G constraints\n\n\nImpact: Cited in 15+ papers;"
-  },
-  {
-    "objectID": "papers.html#featured",
-    "href": "papers.html#featured",
-    "title": "Research Publications",
-    "section": "",
-    "text": "Testing the ΛCDM Cosmological Model with SPT-3G arXiv:2403.17925\n\n\n\nK. Prabhu Palimar et al.\nDeveloped novel Bayesian hierarchical models to analyze CMB data from SPT-3G, achieving up to ×2 tighter constraints on cosmological parameters like \\(H_0\\) and \\(\\Omega_b h^2\\) compared to Planck. Demonstrated potential to resolve cosmological tensions using high-resolution polarization and lensing measurements.\n\n\n\nSPT-3G constraints\n\n\nImpact: Cited in 15+ papers;"
-  },
-  {
-    "objectID": "papers.html#peer-reviewed-preprints",
-    "href": "papers.html#peer-reviewed-preprints",
-    "title": "Research Publications",
-    "section": "Peer-Reviewed Preprints",
-    "text": "Peer-Reviewed Preprints\n\nGenerative Modeling of Galactic Dust with VAEs arXiv:2101.11181\nB. Thorne, L. Knox, K. Prabhu Palimar\nDeveloped VAE-based modeling of galactic dust emission (92% correlation with observations), enabling improved foreground removal for CMB experiments.\n\n\n\nVAE dust reconstruction\n\n\n\n\nLet’s collaborate!\nContact me at karthikprabhu22@gmail.com to discuss collaboration opportunities."
+    "text": "Testing the ΛCDM Cosmological Model with SPT-3G arXiv:2403.17925\nK. Prabhu Palimar et al.\nDeveloped novel Bayesian hierarchical models to analyze CMB data from SPT-3G, achieving up to ×2 tighter constraints on cosmological parameters like \\(H_0\\) and \\(\\Omega_b h^2\\) compared to Planck. Demonstrated potential to resolve cosmological tensions using high-resolution polarization and lensing measurements.\n\n\n\nSPT-3G constraints\n\n\n\n\nGenerative Modeling of Galactic Dust with VAEs arXiv:2101.11181\nB. Thorne, L. Knox, K. Prabhu Palimar\nDeveloped VAE-based modeling of galactic dust emission (92% correlation with observations), enabling improved foreground removal for CMB experiments.\n\n\n\nVAE dust reconstruction"
   }
 ]
