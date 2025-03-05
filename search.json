@@ -39,7 +39,7 @@
     "href": "projects.html#bayesian-inference-pipeline-for-cmb-lensing",
     "title": "Projects",
     "section": "Bayesian Inference Pipeline for CMB Lensing",
-    "text": "Bayesian Inference Pipeline for CMB Lensing\nTech Stack: Julia, Bayesian Statistics\n\nDeveloped and applied differentiable likelihood techniques to extract non-Gaussian information from cosmic microwave background (CMB) maps, improving constraints on gravitational lensing amplitude and advancing beyond traditional two-point function analyses.\n\n\n*private repo, contact me for access :::"
+    "text": "Bayesian Inference Pipeline for CMB Lensing\nTech Stack: Julia, Bayesian Statistics\n\nDeveloped and applied differentiable likelihood techniques to extract non-Gaussian information from cosmic microwave background (CMB) maps, improving constraints on gravitational lensing amplitude and advancing beyond traditional two-point function analyses.\n\n\n*private repo, contact me for access"
   },
   {
     "objectID": "index.html",
