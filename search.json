@@ -17,8 +17,8 @@
     "objectID": "projects.html#forecasting-λcdm-cosmological-constraints-with-spt-3g-cmb-surveys",
     "href": "projects.html#forecasting-λcdm-cosmological-constraints-with-spt-3g-cmb-surveys",
     "title": "Projects",
-    "section": "Forecasting ΛCDM Cosmological Constraints with SPT-3G CMB Surveys",
-    "text": "Forecasting ΛCDM Cosmological Constraints with SPT-3G CMB Surveys\n\nImplemented a novel technique to optimally estimate auto/cross-frequency covariance matrices for gravitational lensing potential and unlensed CMB bandpowers, which has been incorporated into forecasts for ongoing and planned SPT-3G (South Pole Telescope) surveys.\nThese forecasts sharpen constraints on the standard cosmological model and probe theoretical extensions that attempt to resolve current tensions."
+    "section": "Forecasting ΛCDM Cosmological Constraints with SPT-3G CMB Surveys*",
+    "text": "Forecasting ΛCDM Cosmological Constraints with SPT-3G CMB Surveys*\nTech Stack: Python, Julia, Statistics\n\nImplemented a novel technique to optimally estimate auto/cross-frequency covariance matrices for gravitational lensing potential and unlensed CMB bandpowers, which has been incorporated into forecasts for ongoing and planned SPT-3G (South Pole Telescope) surveys.\nThese forecasts sharpen constraints on the standard cosmological model and probe theoretical extensions that attempt to resolve current tensions."
   },
   {
     "objectID": "projects.html#generative-modeling-for-galactic-dust-emission-using-variational-autoencoders",
@@ -39,7 +39,7 @@
     "href": "projects.html#bayesian-inference-pipeline-for-cmb-lensing",
     "title": "Projects",
     "section": "Bayesian Inference Pipeline for CMB Lensing",
-    "text": "Bayesian Inference Pipeline for CMB Lensing\nTech Stack: PyTorch, Bayesian Statistics\n\nDeveloped and applied differentiable likelihood techniques to extract non-Gaussian information from cosmic microwave background (CMB) maps, improving constraints on gravitational lensing amplitude and advancing beyond traditional two-point function analyses."
+    "text": "Bayesian Inference Pipeline for CMB Lensing\nTech Stack: Julia, Bayesian Statistics\n\nDeveloped and applied differentiable likelihood techniques to extract non-Gaussian information from cosmic microwave background (CMB) maps, improving constraints on gravitational lensing amplitude and advancing beyond traditional two-point function analyses.\n\n\n*private repo, contact me for access :::"
   },
   {
     "objectID": "index.html",
