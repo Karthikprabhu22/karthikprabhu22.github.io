@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Karthik Prabhu Palimar</title>
+<title>Research Publications – Karthik Prabhu Palimar</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -66,11 +67,40 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -86,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers.html"> 
+    <a class="nav-link active" href="./papers.html" aria-current="page"> 
 <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
@@ -101,60 +131,78 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-jolla page-columns page-full">
-  <img src="KP.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Karthik Prabhu Palimar</h1>
+<h1 class="title">Research Publications</h1>
 </div>
-<div class="quarto-title-meta">
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
-</header><main class="content page-columns page-full" id="quarto-document-content">
-<div class="column-page">
-<section id="bio" class="level2">
-<h2 data-anchor-id="bio">Bio</h2>
-<p>Karthik Prabhu Palimar is a Ph.D.&nbsp;candidate in Physics at the University of California, Davis, specializing in theoretical cosmology and machine learning-driven astrophysical modeling. Under the supervision of Prof.&nbsp;Lloyd Knox, his research focuses on advancing precision in Cosmic Microwave Background (CMB) analysis through generative models and statistical inference frameworks.</p>
-<p>As a member of the SPT-3G Collaboration, he develops scalable computational pipelines to disentangle astrophysical foregrounds from CMB signals, employing techniques such as variational autoencoders (VAEs) and diffusion models (DDPMs) to simulate complex astrophysical emissions. His work enhances the accuracy of temperature, polarization, and gravitational lensing measurements, directly supporting cosmological investigations into dark matter and the early universe.</p>
-<p>Karthik’s interdisciplinary approach bridges physics, high-performance computing, and machine learning, with a focus on translating theoretical insights into robust, data-driven solutions for next-generation astrophysical surveys.</p>
-<p>
-</p>
+  
+
+
+</header>
+
+
+<section id="featured" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="featured">Featured</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<a href="https://arxiv.org/abs/2403.17925">Testing the ΛCDM Cosmological Model with SPT-3G</a> <span class="arxiv-badge">arXiv:2403.17925</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>K. Prabhu Palimar</strong> et al.<br>
+<em>Developed novel Bayesian hierarchical models to analyze CMB data from SPT-3G, achieving up to ×2 tighter constraints on cosmological parameters like <span class="math inline">\(H_0\)</span> and <span class="math inline">\(\Omega_b h^2\)</span> compared to Planck. Demonstrated potential to resolve cosmological tensions using high-resolution polarization and lensing measurements.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="spt3g_plot.png" class="paper-thumbnail img-fluid figure-img"></p>
+<figcaption>SPT-3G constraints</figcaption>
+</figure>
+</div>
+<p><strong>Impact:</strong> Cited in 15+ papers;</p>
+</div>
+</div>
 </section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p>University of California, Davis | Davis, CA PhD in Physics | Sept 2018 - June 2025</p>
-<p>Indian Institute of Science Education and Research | Pune, India B.S.-M.S. in Natural Sciences | Aug 2013 - May 2018</p>
+<section id="peer-reviewed-preprints" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="peer-reviewed-preprints">Peer-Reviewed Preprints</h2>
+<section id="generative-modeling-of-galactic-dust-with-vaes-arxiv2101.11181" class="level3 publication">
+<h3 class="anchored" data-anchor-id="generative-modeling-of-galactic-dust-with-vaes-arxiv2101.11181"><a href="https://arxiv.org/abs/2101.11181">Generative Modeling of Galactic Dust with VAEs</a> <span class="arxiv-badge">arXiv:2101.11181</span></h3>
+<p><strong>B. Thorne, L. Knox, K. Prabhu Palimar</strong><br>
+<em>Developed VAE-based modeling of galactic dust emission (92% correlation with observations), enabling improved foreground removal for CMB experiments.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="vae_dust.png" class="paper-thumbnail img-fluid figure-img"></p>
+<figcaption>VAE dust reconstruction</figcaption>
+</figure>
+</div>
 </section>
+<div class="footnote">
+<p><strong>Let’s collaborate!</strong><br>
+Contact me at <a href="mailto:karthikprabhu22@gmail.com">karthikprabhu22@gmail.com</a> to discuss collaboration opportunities.</p>
 </div>
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://linkedin.com/in/kprabhu22" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://github.com/Karthikprabhu22/" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="mailto:karthikprabhu22@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope-fill"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://scholar.google.com/citations?hl=en&amp;user=Yoa9KvcAAAAJ" class="about-link" rel="" target="">
-    <i class="bi bi-google-scholar"></i>
-     <span class="about-link-text"></span>
-  </a>
-</div>
-</div>
- <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -175,6 +223,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
