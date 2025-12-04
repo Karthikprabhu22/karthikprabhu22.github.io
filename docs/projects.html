@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Karthik Prabhu Palimar</title>
+<title>Projects — Cosmology, DDPMs, VAEs, RAG Systems – Karthik Prabhu Palimar</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1d4f84655f446305ac42a8f1abcf7405.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,12 +68,47 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Projects — Cosmology, DDPMs, VAEs, RAG Systems – Karthik Prabhu Palimar">
+<meta property="og:description" content="Physics PhD | CMB Cosmology, Machine Learning, Generative Models, Statistical Inference">
+<meta property="og:image" content="https://karthikprabhu22.github.io/avatar.jpg">
+<meta property="og:site_name" content="Karthik Prabhu Palimar">
+<link rel="canonical" href="https://karthikprabhu22.github.io/projects.html">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -104,21 +139,21 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Projects — Cosmology, DDPMs, VAEs, RAG Systems</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -130,46 +165,67 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="modeling-non-gaussian-extragalactic-foregrounds-using-denoising-diffusion-probabilistic-models" class="level2">
-<h2 class="anchored" data-anchor-id="modeling-non-gaussian-extragalactic-foregrounds-using-denoising-diffusion-probabilistic-models"><a href="https://github.com/Karthikprabhu22/diffusion_model">Modeling Non-Gaussian Extragalactic Foregrounds Using Denoising Diffusion Probabilistic Models*</a></h2>
-<p><strong>Tech Stack</strong>: Python, PyTorch, Accelerate, DDPMs</p>
+<section id="modeling-non-gaussian-extragalactic-foregrounds-with-ddpms" class="level2">
+<h2 class="anchored" data-anchor-id="modeling-non-gaussian-extragalactic-foregrounds-with-ddpms">Modeling Non-Gaussian Extragalactic Foregrounds with DDPMs*</h2>
+<p><strong>Tech stack:</strong> Python · PyTorch · Accelerate · DDPMs<br>
+<a href="https://github.com/Karthikprabhu22/diffusion_model">GitHub</a></p>
 <ul>
-<li>Developed a novel approach using denoising diffusion probabilistic models (DDPMs) to model the non-Gaussian distribution of Cosmic Infrared Background (CIB) maps.</li>
-<li>Integrated DDPM-generated foreground samples into Bayesian inference pipelines, significantly reducing bias in lensing power spectrum reconstruction.</li>
+<li>Built diffusion models to learn the joint non-Gaussian distribution of Cosmic Infrared Background (CIB) and tSZ maps from the Agora simulations.<br>
+</li>
+<li>Generated fast, realistic CIB–tSZ samples that match 2-point, 3-point, and 4-point statistics of the training data.<br>
+</li>
+<li>Integrated DDPM-generated maps into lensing pipelines, reducing bias in reconstructed lensing power spectra on small angular scales.</li>
 </ul>
 </section>
-<section id="forecasting-λcdm-cosmological-constraints-with-spt-3g-cmb-surveys" class="level2">
-<h2 class="anchored" data-anchor-id="forecasting-λcdm-cosmological-constraints-with-spt-3g-cmb-surveys"><a href="https://github.com/Karthikprabhu22/spt3g_forecasting_paper">Forecasting ΛCDM Cosmological Constraints with SPT-3G CMB Surveys*</a></h2>
-<p><strong>Tech Stack</strong>: Python, Julia, Statistics</p>
+<section id="forecasting-λcdm-cosmological-constraints-with-spt-3g" class="level2">
+<h2 class="anchored" data-anchor-id="forecasting-λcdm-cosmological-constraints-with-spt-3g">Forecasting ΛCDM Cosmological Constraints with SPT-3G*</h2>
+<p><strong>Tech stack:</strong> Python · Julia · Statistical Inference<br>
+<a href="https://github.com/Karthikprabhu22/spt3g_forecasting_paper">GitHub</a></p>
 <ul>
-<li>Implemented a novel technique to optimally estimate auto/cross-frequency covariance matrices for gravitational lensing potential and unlensed CMB bandpowers, which has been incorporated into forecasts for ongoing and planned SPT-3G (South Pole Telescope) surveys.</li>
-<li>These forecasts sharpen constraints on the standard cosmological model and probe theoretical extensions that attempt to resolve current tensions.</li>
+<li>Developed a covariance and parameter-forecasting framework for upcoming SPT-3G temperature, polarization, and lensing data.<br>
+</li>
+<li>Implemented optimal joint estimation of auto/cross-frequency covariance matrices for lensing and unlensed bandpowers.<br>
+</li>
+<li>Produced forecasts showing up to <span class="math inline">\(\sim 2 \times\)</span> tighter parameter constraints relative to Planck alone, enabling robust consistency tests of <span class="math inline">\(\Lambda\)</span>CDM and its extensions.</li>
 </ul>
 </section>
-<section id="generative-modeling-for-galactic-dust-emission-using-variational-autoencoders" class="level2">
-<h2 class="anchored" data-anchor-id="generative-modeling-for-galactic-dust-emission-using-variational-autoencoders"><a href="https://github.com/b-thorne/DustVAEder">Generative Modeling for Galactic Dust Emission using Variational AutoEncoders</a></h2>
-<p><strong>Tech Stack</strong>: Python, TensorFlow, CUDA, VAEs</p>
+<section id="generative-modeling-of-galactic-dust-with-variational-autoencoders" class="level2">
+<h2 class="anchored" data-anchor-id="generative-modeling-of-galactic-dust-with-variational-autoencoders">Generative Modeling of Galactic Dust with Variational Autoencoders</h2>
+<p><strong>Tech stack:</strong> Python · TensorFlow · CUDA · VAEs<br>
+<a href="https://github.com/b-thorne/DustVAEder">GitHub</a></p>
 <ul>
-<li>Developed a generative model using Variational Autoencoders (VAEs) to simulate galactic dust emissions.</li>
-<li>Demonstrated the model’s ability to reconstruct dust maps, perform data imputation, and support Bayesian inference, contributing to the analysis pipeline for next-generation CMB experiments.</li>
+<li>Trained VAEs to model Galactic dust emission maps from Planck observations.<br>
+</li>
+<li>Demonstrated the ability to generate new dust realizations, reconstruct withheld maps, and perform constrained realizations.<br>
+</li>
+<li>Provided generative tools useful for simulation-based inference and foreground-cleaning tests for CMB experiments.</li>
 </ul>
 </section>
-<section id="pawsitive-retrieval-rag-pipeline" class="level2">
-<h2 class="anchored" data-anchor-id="pawsitive-retrieval-rag-pipeline"><a href="https://github.com/marcoswastaken/erdos_paware">Pawsitive Retrieval (RAG Pipeline)</a></h2>
-<p><strong>Tech Stack</strong>: NLP, HuggingFace, AWS, PyLance</p>
+<section id="pawsitive-retrieval-rag-system-over-5.5m-reddit-posts" class="level2">
+<h2 class="anchored" data-anchor-id="pawsitive-retrieval-rag-system-over-5.5m-reddit-posts">Pawsitive Retrieval — RAG System over 5.5M Reddit Posts</h2>
+<p><strong>Tech stack:</strong> NLP · HuggingFace · AWS · LanceDB<br>
+<a href="https://github.com/Karthikprabhu22/erdos_paware">GitHub</a></p>
 <ul>
-<li>Processed and cleaned a dataset of 5.5 million Reddit posts.</li>
-<li>Fine-tuned an embedding model for query processing, achieving a 10-15% improvement in retrieval performance over baseline models, as measured by industry-standard metrics such as Mean Reciprocal Rank (MRR) and Normalized Discounted Cumulative Gain.</li>
+<li>Cleaned, normalized, and indexed a dataset of ~5.5M Reddit posts for large-scale retrieval experiments.<br>
+</li>
+<li>Fine-tuned a domain-specific embedding model for semantic search and question answering.<br>
+</li>
+<li>Achieved a <strong>10–15% improvement</strong> in retrieval quality (MRR, NDCG) relative to baseline transformer embeddings.</li>
 </ul>
 </section>
 <section id="bayesian-inference-pipeline-for-cmb-lensing" class="level2">
-<h2 class="anchored" data-anchor-id="bayesian-inference-pipeline-for-cmb-lensing"><a href="https://github.com/marius311/CMBLensing.jl">Bayesian Inference Pipeline for CMB Lensing</a></h2>
-<p><strong>Tech Stack</strong>: Julia, Bayesian Statistics</p>
+<h2 class="anchored" data-anchor-id="bayesian-inference-pipeline-for-cmb-lensing">Bayesian Inference Pipeline for CMB Lensing</h2>
+<p><strong>Tech stack:</strong> Julia · Differentiable Statistics<br>
+<a href="https://github.com/marius311/CMBLensing.jl">GitHub</a></p>
 <ul>
-<li>Developed and applied differentiable likelihood techniques to extract non-Gaussian information from cosmic microwave background (CMB) maps, improving constraints on gravitational lensing amplitude and advancing beyond traditional two-point function analyses.</li>
+<li>Applied differentiable likelihood methods to extract non-Gaussian information from CMB temperature maps.<br>
+</li>
+<li>Improved constraints on lensing amplitude and higher-order CMB statistics beyond traditional two-point analyses.<br>
+</li>
+<li>Worked toward scalable, simulation-based inference techniques for next-generation CMB datasets.</li>
 </ul>
 <div class="footnote">
-<p>*private repo, contact me for access</p>
+<p>*Private project repositories — contact me for access.</p>
 </div>
 
 
@@ -249,7 +305,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/karthikprabhu22\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -263,6 +319,8 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -594,4 +652,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

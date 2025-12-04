@@ -1,10 +1,14 @@
 project:
   type: website
   output-dir: docs
-
+  
 website:
   title: "Karthik Prabhu Palimar"
-  description: "Personal webpage for Karthik Prabhu Palimar"
+  description: "Physics PhD | CMB Cosmology, Machine Learning, Generative Models, Statistical Inference"
+  site-url: "https://karthikprabhu22.github.io"
+  open-graph: true
+
+  
   navbar:
     title: false
     search: false
@@ -17,16 +21,19 @@ website:
         href: projects.qmd
   page-footer:
     left: "Copyright 2025, Karthik Prabhu Palimar."
-        
+  image: avatar.jpg
+
+# Global HTML metadata (applies to all pages)
+metadata:
+  robots: "index, follow"
+  lang: "en"
 
 format:
   html:
     theme:
-      light: flatly
-        - brand
-    css: 
-      styles.css
+      light: cosmo
+    css: styles.css
     toc: false
-
-
-
+    smooth-scroll: true
+    link-external-icon: true
+    canonical-url: true

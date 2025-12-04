@@ -2,57 +2,99 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Projects",
+    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
     "section": "",
-    "text": "Tech Stack: Python, PyTorch, Accelerate, DDPMs\n\nDeveloped a novel approach using denoising diffusion probabilistic models (DDPMs) to model the non-Gaussian distribution of Cosmic Infrared Background (CIB) maps.\nIntegrated DDPM-generated foreground samples into Bayesian inference pipelines, significantly reducing bias in lensing power spectrum reconstruction."
+    "text": "Tech stack: Python · PyTorch · Accelerate · DDPMs\nGitHub\n\nBuilt diffusion models to learn the joint non-Gaussian distribution of Cosmic Infrared Background (CIB) and tSZ maps from the Agora simulations.\n\nGenerated fast, realistic CIB–tSZ samples that match 2-point, 3-point, and 4-point statistics of the training data.\n\nIntegrated DDPM-generated maps into lensing pipelines, reducing bias in reconstructed lensing power spectra on small angular scales."
   },
   {
-    "objectID": "projects.html#modeling-non-gaussian-extragalactic-foregrounds-using-denoising-diffusion-probabilistic-models",
-    "href": "projects.html#modeling-non-gaussian-extragalactic-foregrounds-using-denoising-diffusion-probabilistic-models",
-    "title": "Projects",
+    "objectID": "projects.html#modeling-non-gaussian-extragalactic-foregrounds-with-ddpms",
+    "href": "projects.html#modeling-non-gaussian-extragalactic-foregrounds-with-ddpms",
+    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
     "section": "",
-    "text": "Tech Stack: Python, PyTorch, Accelerate, DDPMs\n\nDeveloped a novel approach using denoising diffusion probabilistic models (DDPMs) to model the non-Gaussian distribution of Cosmic Infrared Background (CIB) maps.\nIntegrated DDPM-generated foreground samples into Bayesian inference pipelines, significantly reducing bias in lensing power spectrum reconstruction."
+    "text": "Tech stack: Python · PyTorch · Accelerate · DDPMs\nGitHub\n\nBuilt diffusion models to learn the joint non-Gaussian distribution of Cosmic Infrared Background (CIB) and tSZ maps from the Agora simulations.\n\nGenerated fast, realistic CIB–tSZ samples that match 2-point, 3-point, and 4-point statistics of the training data.\n\nIntegrated DDPM-generated maps into lensing pipelines, reducing bias in reconstructed lensing power spectra on small angular scales."
   },
   {
-    "objectID": "projects.html#forecasting-λcdm-cosmological-constraints-with-spt-3g-cmb-surveys",
-    "href": "projects.html#forecasting-λcdm-cosmological-constraints-with-spt-3g-cmb-surveys",
-    "title": "Projects",
-    "section": "Forecasting ΛCDM Cosmological Constraints with SPT-3G CMB Surveys*",
-    "text": "Forecasting ΛCDM Cosmological Constraints with SPT-3G CMB Surveys*\nTech Stack: Python, Julia, Statistics\n\nImplemented a novel technique to optimally estimate auto/cross-frequency covariance matrices for gravitational lensing potential and unlensed CMB bandpowers, which has been incorporated into forecasts for ongoing and planned SPT-3G (South Pole Telescope) surveys.\nThese forecasts sharpen constraints on the standard cosmological model and probe theoretical extensions that attempt to resolve current tensions."
+    "objectID": "projects.html#forecasting-λcdm-cosmological-constraints-with-spt-3g",
+    "href": "projects.html#forecasting-λcdm-cosmological-constraints-with-spt-3g",
+    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "section": "Forecasting ΛCDM Cosmological Constraints with SPT-3G*",
+    "text": "Forecasting ΛCDM Cosmological Constraints with SPT-3G*\nTech stack: Python · Julia · Statistical Inference\nGitHub\n\nDeveloped a covariance and parameter-forecasting framework for upcoming SPT-3G temperature, polarization, and lensing data.\n\nImplemented optimal joint estimation of auto/cross-frequency covariance matrices for lensing and unlensed bandpowers.\n\nProduced forecasts showing up to \\(\\sim 2 \\times\\) tighter parameter constraints relative to Planck alone, enabling robust consistency tests of \\(\\Lambda\\)CDM and its extensions."
   },
   {
-    "objectID": "projects.html#generative-modeling-for-galactic-dust-emission-using-variational-autoencoders",
-    "href": "projects.html#generative-modeling-for-galactic-dust-emission-using-variational-autoencoders",
-    "title": "Projects",
-    "section": "Generative Modeling for Galactic Dust Emission using Variational AutoEncoders",
-    "text": "Generative Modeling for Galactic Dust Emission using Variational AutoEncoders\nTech Stack: Python, TensorFlow, CUDA, VAEs\n\nDeveloped a generative model using Variational Autoencoders (VAEs) to simulate galactic dust emissions.\nDemonstrated the model’s ability to reconstruct dust maps, perform data imputation, and support Bayesian inference, contributing to the analysis pipeline for next-generation CMB experiments."
+    "objectID": "projects.html#generative-modeling-of-galactic-dust-with-variational-autoencoders",
+    "href": "projects.html#generative-modeling-of-galactic-dust-with-variational-autoencoders",
+    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "section": "Generative Modeling of Galactic Dust with Variational Autoencoders",
+    "text": "Generative Modeling of Galactic Dust with Variational Autoencoders\nTech stack: Python · TensorFlow · CUDA · VAEs\nGitHub\n\nTrained VAEs to model Galactic dust emission maps from Planck observations.\n\nDemonstrated the ability to generate new dust realizations, reconstruct withheld maps, and perform constrained realizations.\n\nProvided generative tools useful for simulation-based inference and foreground-cleaning tests for CMB experiments."
   },
   {
-    "objectID": "projects.html#pawsitive-retrieval-rag-pipeline",
-    "href": "projects.html#pawsitive-retrieval-rag-pipeline",
-    "title": "Projects",
-    "section": "Pawsitive Retrieval (RAG Pipeline)",
-    "text": "Pawsitive Retrieval (RAG Pipeline)\nTech Stack: NLP, HuggingFace, AWS, PyLance\n\nProcessed and cleaned a dataset of 5.5 million Reddit posts.\nFine-tuned an embedding model for query processing, achieving a 10-15% improvement in retrieval performance over baseline models, as measured by industry-standard metrics such as Mean Reciprocal Rank (MRR) and Normalized Discounted Cumulative Gain."
+    "objectID": "projects.html#pawsitive-retrieval-rag-system-over-5.5m-reddit-posts",
+    "href": "projects.html#pawsitive-retrieval-rag-system-over-5.5m-reddit-posts",
+    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "section": "Pawsitive Retrieval — RAG System over 5.5M Reddit Posts",
+    "text": "Pawsitive Retrieval — RAG System over 5.5M Reddit Posts\nTech stack: NLP · HuggingFace · AWS · LanceDB\nGitHub\n\nCleaned, normalized, and indexed a dataset of ~5.5M Reddit posts for large-scale retrieval experiments.\n\nFine-tuned a domain-specific embedding model for semantic search and question answering.\n\nAchieved a 10–15% improvement in retrieval quality (MRR, NDCG) relative to baseline transformer embeddings."
   },
   {
     "objectID": "projects.html#bayesian-inference-pipeline-for-cmb-lensing",
     "href": "projects.html#bayesian-inference-pipeline-for-cmb-lensing",
-    "title": "Projects",
+    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
     "section": "Bayesian Inference Pipeline for CMB Lensing",
-    "text": "Bayesian Inference Pipeline for CMB Lensing\nTech Stack: Julia, Bayesian Statistics\n\nDeveloped and applied differentiable likelihood techniques to extract non-Gaussian information from cosmic microwave background (CMB) maps, improving constraints on gravitational lensing amplitude and advancing beyond traditional two-point function analyses.\n\n\n*private repo, contact me for access"
+    "text": "Bayesian Inference Pipeline for CMB Lensing\nTech stack: Julia · Differentiable Statistics\nGitHub\n\nApplied differentiable likelihood methods to extract non-Gaussian information from CMB temperature maps.\n\nImproved constraints on lensing amplitude and higher-order CMB statistics beyond traditional two-point analyses.\n\nWorked toward scalable, simulation-based inference techniques for next-generation CMB datasets.\n\n\n*Private project repositories — contact me for access."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Karthik Prabhu Palimar",
+    "title": "Karthik Prabhu Palimar — CMB Cosmology & Machine Learning",
     "section": "",
-    "text": "I am a Ph.D. candidate in Physics at the University of California, Davis. I specialize in theoretical cosmology and machine learning-driven astrophysical modeling. Under the supervision of Prof. Lloyd Knox, my research focuses on advancing precision in Cosmic Microwave Background (CMB) analysis through generative models and statistical inference frameworks.\n\nEducation\n\nUniversity of California, Davis | Davis, CA PhD in Physics Sept 2018 - June 2025\n\n\nIndian Institute of Science Education and Research | Pune, India B.S.-M.S. in Natural Sciences Aug 2013 - May 2018"
+    "text": "I am a Ph.D. candidate in Physics at the University of California, Davis, working at the intersection of CMB cosmology and machine learning. Under the supervision of Prof. Lloyd Knox, my research focuses on building statistical and generative models to extract cosmological information from small–scale Cosmic Microwave Background (CMB) data.\nSome of my research interests are: - Simulation-based inference and lensing pipelines for SPT-3G and future surveys\n- Generative models (VAEs, DDPMs) for non-Gaussian astrophysical foregrounds\n- Scalable, reproducible workflows for high-dimensional cosmological parameter estimation"
+  },
+  {
+    "objectID": "index.html#i-am-currently-exploring-data-science-and-aiml-roles-in-industry-along-with-postdoctoral-roles-preferably-in-chicago-area-starting-in-2026.",
+    "href": "index.html#i-am-currently-exploring-data-science-and-aiml-roles-in-industry-along-with-postdoctoral-roles-preferably-in-chicago-area-starting-in-2026.",
+    "title": "Karthik Prabhu Palimar — CMB Cosmology & Machine Learning",
+    "section": "I am currently exploring data science and AI/ML roles in industry, along with postdoctoral roles, preferably in Chicago area, starting in 2026.",
+    "text": "I am currently exploring data science and AI/ML roles in industry, along with postdoctoral roles, preferably in Chicago area, starting in 2026.\n\nEducation\n\nUniversity of California, Davis | Davis, CA PhD in Physics Sept 2018 - Dec 2025 Advisor: Prof. Lloyd Knox\n\n\nIndian Institute of Science Education and Research (IISER) | Pune, India B.S.-M.S. in Natural Sciences Aug 2013 - May 2018"
   },
   {
     "objectID": "papers.html",
     "href": "papers.html",
-    "title": "Research Publications",
+    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
     "section": "",
-    "text": "Learning correlated astrophysical foregrounds with denoising diffusion probabilistic models arXiv:2506.09036\nK. Prabhu Palimar, S. Raghunathan, E. Anderes, L. Knox\nExtragalactic foregrounds – most notably the Cosmic Infrared Background (CIB) and the thermal Sunyaev-Zel’dovich (tSZ) effect – exhibit complex, non-Gaussian structure and correlations that can bias analyses of small-scale cosmic microwave background (CMB) temperature anisotropies. These foregrounds can introduce mode coupling at small-scales that mimic true lensing signals, thereby complicating analyses such as CMB lensing reconstruction. We present a novel approach to learn their full joint distribution using Denoising Diffusion Probabilistic Models (DDPMs) trained on paired CIB-tSZ patches at 150 GHz, from the Agora suite of extragalactic sky simulations. While simulations like Agora, which are based on N-body calculations, can take thousands of CPU hours, DDPM can synthesize realistic CIB-tSZ patches that faithfully reproduce both auto- and cross-spectral statistics of the 2-point, 3-point, and 4-point correlation functions, in a matter of seconds. We further demonstrate matching pixel-value histograms and Minkowski functionals, confirming that conventional non-Gaussian benchmarks are also satisfied. This framework provides a powerful generative tool for forward-modeling correlated extragalactic foregrounds in current and future CMB analyses. We also outline remaining challenges to their practical deployment in analysis pipelines, such as scaling to larger sky areas and reliance on the underlying cosmological and astrophysical assumptions in the simulations used for training.\n\n\n\nTesting the \\(\\Lambda\\)CDM Cosmological Model with SPT-3G arXiv:2403.17925\nK. Prabhu Palimar et al.\nWe forecast constraints on cosmological parameters enabled by three surveys conducted with SPT-3G, the third-generation camera on the South Pole Telescope. The surveys cover separate regions of 1500, 2650, and 6000 \\({\\rm deg}^{2}\\) to different depths, in total observing 25% of the sky. These regions will be measured to white noise levels of roughly 2.5, 9, and 12 \\(\\mu{\\rm K-arcmin}\\), respectively, in CMB temperature units at 150 GHz by the end of 2024. The survey also includes measurements at 95 and 220 GHz, which have noise levels a factor of $$1.2 and 3.5 times higher than 150 GHz, respectively, with each band having a polarization noise level \\(\\sim \\sqrt{2}\\) times higher than the temperature noise. We use a novel approach to obtain the covariance matrices for jointly and optimally estimated gravitational lensing potential bandpowers and unlensed CMB temperature and polarization bandpowers. We demonstrate the ability to test the \\(\\Lambda{\\rm CDM}\\) model via the consistency of cosmological parameters constrained independently from SPT-3G and Planck data, and consider the improvement in constraints on \\(\\Lambda{\\rm CDM}\\) extension parameters from a joint analysis of the SPT-3G and Planck data. The \\(\\Lambda{\\rm CDM}\\) cosmological parameters are typically constrained with uncertainties up to $$2 times smaller with SPT-3G data, compared to Planck, with the two data sets measuring significantly different angular scales and polarization levels, providing additional tests of the standard cosmological model.\n\n\n\nGenerative Modeling of Galactic Dust with VAEs arXiv:2101.11181\nB. Thorne, L. Knox, K. Prabhu Palimar\nEmission from the interstellar medium can be a significant contaminant of measurements of the intensity and polarization of the cosmic microwave background (CMB). For planning CMB observations, and for optimizing foreground-cleaning algorithms, a description of the statistical properties of such emission can be helpful. Here we examine a machine learning approach to inferring the statistical properties of dust from observational data. In particular, we apply a type of neural network called a Variational Auto Encoder (VAE) to maps of the intensity of emission from interstellar dust as inferred from Planck sky maps and demonstrate its ability to a. simulate new samples with similar summary statistics as the training set, b. provide fits to emission maps withheld from the training set, and c. produce constrained realizations. We find VAEs are easier to train than another popular architecture: that of Generative Adversarial Networks (GANs), and are better-suited for use in Bayesian inference."
+    "text": "Tech stack: Python · PyTorch · Accelerate · DDPMs\nGitHub (private repo; contact me for access)\n\nBuilt diffusion models to learn the joint non-Gaussian distribution of Cosmic Infrared Background (CIB) and tSZ maps from the Agora simulations.\n\nGenerated fast, realistic CIB–tSZ samples that match 2-point, 3-point, and 4-point statistics of the training data.\n\nIntegrated DDPM-generated maps into lensing pipelines, reducing bias in reconstructed lensing power spectra on small angular scales."
+  },
+  {
+    "objectID": "papers.html#modeling-non-gaussian-extragalactic-foregrounds-with-ddpms",
+    "href": "papers.html#modeling-non-gaussian-extragalactic-foregrounds-with-ddpms",
+    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "section": "",
+    "text": "Tech stack: Python · PyTorch · Accelerate · DDPMs\nGitHub (private repo; contact me for access)\n\nBuilt diffusion models to learn the joint non-Gaussian distribution of Cosmic Infrared Background (CIB) and tSZ maps from the Agora simulations.\n\nGenerated fast, realistic CIB–tSZ samples that match 2-point, 3-point, and 4-point statistics of the training data.\n\nIntegrated DDPM-generated maps into lensing pipelines, reducing bias in reconstructed lensing power spectra on small angular scales."
+  },
+  {
+    "objectID": "papers.html#forecasting-λcdm-cosmological-constraints-with-spt-3g",
+    "href": "papers.html#forecasting-λcdm-cosmological-constraints-with-spt-3g",
+    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "section": "Forecasting ΛCDM Cosmological Constraints with SPT-3G",
+    "text": "Forecasting ΛCDM Cosmological Constraints with SPT-3G\nTech stack: Python · Julia · Statistical Inference\nGitHub (private repo; contact me for access)\n\nDeveloped a covariance and parameter-forecasting framework for upcoming SPT-3G temperature, polarization, and lensing data.\n\nImplemented optimal joint estimation of auto/cross-frequency covariance matrices for lensing and unlensed bandpowers.\n\nProduced forecasts showing up to \\(\\sim 2 \\times\\) tighter parameter constraints relative to Planck alone, enabling robust consistency tests of \\(\\Lambda\\)CDM and its extensions."
+  },
+  {
+    "objectID": "papers.html#generative-modeling-of-galactic-dust-with-variational-autoencoders",
+    "href": "papers.html#generative-modeling-of-galactic-dust-with-variational-autoencoders",
+    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "section": "Generative Modeling of Galactic Dust with Variational Autoencoders",
+    "text": "Generative Modeling of Galactic Dust with Variational Autoencoders\nTech stack: Python · TensorFlow · CUDA · VAEs\nGitHub\n\nTrained VAEs to model Galactic dust emission maps from Planck observations.\n\nDemonstrated the ability to generate new dust realizations, reconstruct withheld maps, and perform constrained realizations.\n\nProvided generative tools useful for simulation-based inference and foreground-cleaning tests for CMB experiments."
+  },
+  {
+    "objectID": "papers.html#pawsitive-retrieval-rag-system-over-5.5m-reddit-posts",
+    "href": "papers.html#pawsitive-retrieval-rag-system-over-5.5m-reddit-posts",
+    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "section": "Pawsitive Retrieval — RAG System over 5.5M Reddit Posts",
+    "text": "Pawsitive Retrieval — RAG System over 5.5M Reddit Posts\nTech stack: NLP · HuggingFace · AWS · LanceDB\nGitHub\n\nCleaned, normalized, and indexed a dataset of ~5.5M Reddit posts for large-scale retrieval experiments.\n\nFine-tuned a domain-specific embedding model for semantic search and question answering.\n\nAchieved a 10–15% improvement in retrieval quality (MRR, NDCG) relative to baseline transformer embeddings."
+  },
+  {
+    "objectID": "papers.html#bayesian-inference-pipeline-for-cmb-lensing",
+    "href": "papers.html#bayesian-inference-pipeline-for-cmb-lensing",
+    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "section": "Bayesian Inference Pipeline for CMB Lensing",
+    "text": "Bayesian Inference Pipeline for CMB Lensing\nTech stack: Julia · Differentiable Statistics\nGitHub\n\nApplied differentiable likelihood methods to extract non-Gaussian information from CMB temperature maps.\n\nImproved constraints on lensing amplitude and higher-order CMB statistics beyond traditional two-point analyses.\n\nWorked toward scalable, simulation-based inference techniques for next-generation CMB datasets."
   }
 ]

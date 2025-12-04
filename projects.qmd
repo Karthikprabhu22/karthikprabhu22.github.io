@@ -1,39 +1,53 @@
 ---
-layout: page
-title: Projects
-permalink: /projects/
+title: "Projects — Cosmology, DDPMs, VAEs, RAG Systems"
+page-layout: full
+format:
+  html:
+    css: styles.css
 ---
 
-## [Modeling Non-Gaussian Extragalactic Foregrounds Using Denoising Diffusion Probabilistic Models*](https://github.com/Karthikprabhu22/diffusion_model)
-**Tech Stack**: Python, PyTorch, Accelerate, DDPMs
+## Modeling Non-Gaussian Extragalactic Foregrounds with DDPMs*  
+**Tech stack:** Python · PyTorch · Accelerate · DDPMs  
+[GitHub](https://github.com/Karthikprabhu22/diffusion_model)
 
-- Developed a novel approach using denoising diffusion probabilistic models (DDPMs) to model the non-Gaussian distribution of Cosmic Infrared Background (CIB) maps.
-- Integrated DDPM-generated foreground samples into Bayesian inference pipelines, significantly reducing bias in lensing power spectrum reconstruction.
+- Built diffusion models to learn the joint non-Gaussian distribution of Cosmic Infrared Background (CIB) and tSZ maps from the Agora simulations.  
+- Generated fast, realistic CIB–tSZ samples that match 2-point, 3-point, and 4-point statistics of the training data.  
+- Integrated DDPM-generated maps into lensing pipelines, reducing bias in reconstructed lensing power spectra on small angular scales.
 
-## [Forecasting ΛCDM Cosmological Constraints with SPT-3G CMB Surveys*](https://github.com/Karthikprabhu22/spt3g_forecasting_paper)
-**Tech Stack**: Python, Julia, Statistics
+## Forecasting ΛCDM Cosmological Constraints with SPT-3G*  
+**Tech stack:** Python · Julia · Statistical Inference  
+[GitHub](https://github.com/Karthikprabhu22/spt3g_forecasting_paper)
 
-- Implemented a novel technique to optimally estimate auto/cross-frequency covariance matrices for gravitational lensing potential and unlensed CMB bandpowers, which has been incorporated into forecasts for ongoing and planned SPT-3G (South Pole Telescope) surveys. 
-- These forecasts sharpen constraints on the standard cosmological model and probe theoretical extensions that attempt to resolve current tensions.
+- Developed a covariance and parameter-forecasting framework for upcoming SPT-3G temperature, polarization, and lensing data.  
+- Implemented optimal joint estimation of auto/cross-frequency covariance matrices for lensing and unlensed bandpowers.  
+- Produced forecasts showing up to $\sim 2 \times$ tighter parameter constraints relative to Planck alone, enabling robust consistency tests of $\Lambda$CDM and its extensions.
 
-## [Generative Modeling for Galactic Dust Emission using Variational AutoEncoders](https://github.com/b-thorne/DustVAEder)    
-**Tech Stack**: Python, TensorFlow, CUDA, VAEs
 
-- Developed a generative model using Variational Autoencoders (VAEs) to simulate galactic dust emissions.
-- Demonstrated the model’s ability to reconstruct dust maps, perform data imputation, and support Bayesian inference, contributing to the analysis pipeline for next-generation CMB experiments.
+## Generative Modeling of Galactic Dust with Variational Autoencoders  
+**Tech stack:** Python · TensorFlow · CUDA · VAEs  
+[GitHub](https://github.com/b-thorne/DustVAEder)
 
-## [Pawsitive Retrieval (RAG Pipeline)](https://github.com/marcoswastaken/erdos_paware)
-**Tech Stack**: NLP, HuggingFace, AWS, PyLance
+- Trained VAEs to model Galactic dust emission maps from Planck observations.  
+- Demonstrated the ability to generate new dust realizations, reconstruct withheld maps, and perform constrained realizations.  
+- Provided generative tools useful for simulation-based inference and foreground-cleaning tests for CMB experiments.
 
-- Processed and cleaned a dataset of 5.5 million Reddit posts.
-- Fine-tuned an embedding model for query processing, achieving a 10-15% improvement in retrieval
-performance over baseline models, as measured by industry-standard metrics such as Mean Reciprocal Rank (MRR) and Normalized Discounted Cumulative Gain.
 
-## [Bayesian Inference Pipeline for CMB Lensing](https://github.com/marius311/CMBLensing.jl)
-**Tech Stack**: Julia, Bayesian Statistics
+## Pawsitive Retrieval — RAG System over 5.5M Reddit Posts  
+**Tech stack:** NLP · HuggingFace · AWS · LanceDB  
+[GitHub](https://github.com/Karthikprabhu22/erdos_paware)
 
-- Developed and applied differentiable likelihood techniques to extract non-Gaussian information from cosmic microwave background (CMB) maps, improving constraints on gravitational lensing amplitude and advancing beyond traditional two-point function analyses.
+- Cleaned, normalized, and indexed a dataset of ~5.5M Reddit posts for large-scale retrieval experiments.  
+- Fine-tuned a domain-specific embedding model for semantic search and question answering.  
+- Achieved a **10–15% improvement** in retrieval quality (MRR, NDCG) relative to baseline transformer embeddings.
+
+## Bayesian Inference Pipeline for CMB Lensing  
+**Tech stack:** Julia · Differentiable Statistics  
+[GitHub](https://github.com/marius311/CMBLensing.jl)
+
+- Applied differentiable likelihood methods to extract non-Gaussian information from CMB temperature maps.  
+- Improved constraints on lensing amplitude and higher-order CMB statistics beyond traditional two-point analyses.  
+- Worked toward scalable, simulation-based inference techniques for next-generation CMB datasets.
 
 :::{.footnote}
- *private repo, contact me for access
+\*Private project repositories — contact me for access.
 :::
