@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
     - images/**
+    - google250eb84d152623e9.html
   
 website:
   title: "Karthik Prabhu Palimar"

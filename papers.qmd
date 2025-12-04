@@ -18,7 +18,7 @@ format:
 
 **Role:** Led the project and model development, including DDPM architecture choices, training/evaluation pipeline, and cosmology validation tests.
 
-![](images/ddpm.jpeg){.paper-thumbnail fig-alt="DDPM generated samples"}
+![](images/ddpm.jpg){.paper-thumbnail fig-alt="DDPM generated samples"}
 :::
 
 ::: {.publication}
