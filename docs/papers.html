@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Karthik Prabhu Palimar</title>
+<title>Research Publications – Karthik Prabhu Palimar</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,6 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -68,11 +69,40 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -84,11 +114,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers.html"> 
+    <a class="nav-link active" href="./papers.html" aria-current="page"> 
 <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
@@ -103,63 +133,57 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="avatar.jpg" class="about-image
-  round " style="height: 12em; width: 12em;">
+<main class="content column-page" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Karthik Prabhu Palimar</h1>
+<h1 class="title">Research Publications</h1>
 </div>
-<div class="quarto-title-meta">
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://linkedin.com/in/kprabhu22" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/Karthikprabhu22/" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:karthikprabhu22@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope-fill"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://scholar.google.com/citations?hl=en&amp;user=Yoa9KvcAAAAJ" class="about-link" rel="" target="">
-    <i class="bi bi-google-scholar"></i>
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-  <a href="/KP_resume.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-file-earmark-person"></i>
-     <span class="about-link-text">Resume</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>I am a Ph.D.&nbsp;candidate in Physics at the University of California, Davis. I specialize in theoretical cosmology and machine learning-driven astrophysical modeling. Under the supervision of Prof.&nbsp;Lloyd Knox, my research focuses on advancing precision in Cosmic Microwave Background (CMB) analysis through generative models and statistical inference frameworks.</p>
-<section id="education" class="level3">
-<h3 data-anchor-id="education">Education</h3>
-<div class="education-entry">
-<p>University of California, Davis | Davis, CA<br> PhD in Physics<br> Sept 2018 - June 2025</p>
-</div>
-<div class="education-entry">
-<p>Indian Institute of Science Education and Research | Pune, India<br> B.S.-M.S. in Natural Sciences<br> Aug 2013 - May 2018</p>
-</div>
 
 
+<section id="testing-the-λcdm-cosmological-model-with-spt-3g-arxiv2403.17925" class="level3 publication">
+<h3 class="anchored" data-anchor-id="testing-the-λcdm-cosmological-model-with-spt-3g-arxiv2403.17925"><a href="https://arxiv.org/abs/2403.17925">Testing the ΛCDM Cosmological Model with SPT-3G</a> <span class="arxiv-badge">arXiv:2403.17925</span></h3>
+<p><strong>K. Prabhu Palimar</strong> et al.<br>
+<em>We forecast constraints on cosmological parameters enabled by three surveys conducted with SPT-3G, the third-generation camera on the South Pole Telescope. The surveys cover separate regions of 1500, 2650, and 6000 <span class="math inline">\({\rm deg}^{2}\)</span> to different depths, in total observing 25% of the sky. These regions will be measured to white noise levels of roughly 2.5, 9, and 12 <span class="math inline">\(\mu{\rm K-arcmin}\)</span>, respectively, in CMB temperature units at 150 GHz by the end of 2024. The survey also includes measurements at 95 and 220 GHz, which have noise levels a factor of $$1.2 and 3.5 times higher than 150 GHz, respectively, with each band having a polarization noise level <span class="math inline">\(\sim \sqrt{2}\)</span> times higher than the temperature noise. We use a novel approach to obtain the covariance matrices for jointly and optimally estimated gravitational lensing potential bandpowers and unlensed CMB temperature and polarization bandpowers. We demonstrate the ability to test the <span class="math inline">\(\Lambda{\rm CDM}\)</span> model via the consistency of cosmological parameters constrained independently from SPT-3G and Planck data, and consider the improvement in constraints on <span class="math inline">\(\Lambda{\rm CDM}\)</span> extension parameters from a joint analysis of the SPT-3G and Planck data. The <span class="math inline">\(\Lambda{\rm CDM}\)</span> cosmological parameters are typically constrained with uncertainties up to $$2 times smaller with SPT-3G data, compared to Planck, with the two data sets measuring significantly different angular scales and polarization levels, providing additional tests of the standard cosmological model.</em></p>
+<p><img src="forecasts.png" class="paper-thumbnail img-fluid"></p>
 </section>
-</main></div>
-</div>
- <!-- /main -->
+<section id="generative-modeling-of-galactic-dust-with-vaes-arxiv2101.11181" class="level3 publication">
+<h3 class="anchored" data-anchor-id="generative-modeling-of-galactic-dust-with-vaes-arxiv2101.11181"><a href="https://arxiv.org/abs/2101.11181">Generative Modeling of Galactic Dust with VAEs</a> <span class="arxiv-badge">arXiv:2101.11181</span></h3>
+<p><strong>B. Thorne, L. Knox, K. Prabhu Palimar</strong><br>
+<em>Emission from the interstellar medium can be a significant contaminant of measurements of the intensity and polarization of the cosmic microwave background (CMB). For planning CMB observations, and for optimizing foreground-cleaning algorithms, a description of the statistical properties of such emission can be helpful. Here we examine a machine learning approach to inferring the statistical properties of dust from observational data. In particular, we apply a type of neural network called a Variational Auto Encoder (VAE) to maps of the intensity of emission from interstellar dust as inferred from Planck sky maps and demonstrate its ability to a. simulate new samples with similar summary statistics as the training set, b. provide fits to emission maps withheld from the training set, and c.&nbsp;produce constrained realizations. We find VAEs are easier to train than another popular architecture: that of Generative Adversarial Networks (GANs), and are better-suited for use in Bayesian inference. </em></p>
+<p><img src="vae.png" class="paper-thumbnail img-fluid"></p>
+</section>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

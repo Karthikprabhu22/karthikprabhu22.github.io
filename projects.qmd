@@ -1,0 +1,39 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+## [Modeling Non-Gaussian Extragalactic Foregrounds Using Denoising Diffusion Probabilistic Models*](https://github.com/Karthikprabhu22/diffusion_model)
+**Tech Stack**: Python, PyTorch, Accelerate, DDPMs
+
+- Developed a novel approach using denoising diffusion probabilistic models (DDPMs) to model the non-Gaussian distribution of Cosmic Infrared Background (CIB) maps.
+- Integrated DDPM-generated foreground samples into Bayesian inference pipelines, significantly reducing bias in lensing power spectrum reconstruction.
+
+## [Forecasting ΛCDM Cosmological Constraints with SPT-3G CMB Surveys*](https://github.com/Karthikprabhu22/spt3g_forecasting_paper)
+**Tech Stack**: Python, Julia, Statistics
+
+- Implemented a novel technique to optimally estimate auto/cross-frequency covariance matrices for gravitational lensing potential and unlensed CMB bandpowers, which has been incorporated into forecasts for ongoing and planned SPT-3G (South Pole Telescope) surveys. 
+- These forecasts sharpen constraints on the standard cosmological model and probe theoretical extensions that attempt to resolve current tensions.
+
+## [Generative Modeling for Galactic Dust Emission using Variational AutoEncoders](https://github.com/b-thorne/DustVAEder)    
+**Tech Stack**: Python, TensorFlow, CUDA, VAEs
+
+- Developed a generative model using Variational Autoencoders (VAEs) to simulate galactic dust emissions.
+- Demonstrated the model’s ability to reconstruct dust maps, perform data imputation, and support Bayesian inference, contributing to the analysis pipeline for next-generation CMB experiments.
+
+## [Pawsitive Retrieval (RAG Pipeline)](https://github.com/marcoswastaken/erdos_paware)
+**Tech Stack**: NLP, HuggingFace, AWS, PyLance
+
+- Processed and cleaned a dataset of 5.5 million Reddit posts.
+- Fine-tuned an embedding model for query processing, achieving a 10-15% improvement in retrieval
+performance over baseline models, as measured by industry-standard metrics such as Mean Reciprocal Rank (MRR) and Normalized Discounted Cumulative Gain.
+
+## [Bayesian Inference Pipeline for CMB Lensing](https://github.com/marius311/CMBLensing.jl)
+**Tech Stack**: Julia, Bayesian Statistics
+
+- Developed and applied differentiable likelihood techniques to extract non-Gaussian information from cosmic microwave background (CMB) maps, improving constraints on gravitational lensing amplitude and advancing beyond traditional two-point function analyses.
+
+:::{.footnote}
+ *private repo, contact me for access
+:::

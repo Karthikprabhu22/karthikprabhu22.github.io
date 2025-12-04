@@ -1,0 +1,38 @@
+---
+title: "Karthik Prabhu Palimar"
+image: avatar.jpg
+about:
+  template: trestles
+  image-width: 12em
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/kprabhu22
+    - icon: github
+      text: GitHub
+      href: https://github.com/Karthikprabhu22/
+    - icon: envelope-fill
+      text: Email
+      href: mailto:karthikprabhu22@gmail.com
+    - icon: google-scholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?hl=en&user=Yoa9KvcAAAAJ
+    - icon: file-earmark-person
+      text: Resume
+      href: KP_resume.pdf
+---
+I am a Ph.D. candidate in Physics at the University of California, Davis. I specialize in theoretical cosmology and machine learning-driven astrophysical modeling. Under the supervision of Prof. Lloyd Knox, my research focuses on advancing precision in Cosmic Microwave Background (CMB) analysis through generative models and statistical inference frameworks.
+
+### Education
+::: {.education-entry}
+University of California, Davis | Davis, CA<br>
+PhD in Physics<br>
+Sept 2018 - June 2025
+:::
+
+:::{.education-entry}
+Indian Institute of Science Education and Research | Pune, India<br>
+B.S.-M.S. in Natural Sciences<br>
+Aug 2013 - May 2018
+:::

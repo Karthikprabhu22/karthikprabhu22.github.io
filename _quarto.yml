@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Karthik Prabhu Palimar"
+  description: "Personal webpage for Karthik Prabhu Palimar"
+  navbar:
+    title: false
+    search: false
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Papers"
+        href: papers.qmd
+      - text: "Projects"
+        href: projects.qmd
+  page-footer:
+    left: "Copyright 2025, Karthik Prabhu Palimar."
+        
+
+format:
+  html:
+    theme:
+      light: flatly
+        - brand
+    css: 
+      styles.css
+    toc: false
+
+
+
