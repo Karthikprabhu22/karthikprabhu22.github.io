@@ -26,6 +26,7 @@ about:
       href: KP_CV.pdf
 
 ---
+
 I am a Ph.D. candidate in Physics at the University of California, Davis, working at the intersection of CMB cosmology and machine learning. Under the supervision of Prof. Lloyd Knox, my research focuses on building statistical and generative models to extract cosmological information from small–scale Cosmic Microwave Background (CMB) data.
 
 Some of my research interests are:
