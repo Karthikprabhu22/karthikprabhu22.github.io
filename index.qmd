@@ -1,5 +1,5 @@
 ---
-title: "Karthik Prabhu Palimar — CMB Cosmology & Machine Learning"
+title: "Karthik Prabhu Palimar"
 image: avatar.jpg
 about:
   template: trestles
@@ -29,11 +29,13 @@ about:
 I am a Ph.D. candidate in Physics at the University of California, Davis, working at the intersection of CMB cosmology and machine learning. Under the supervision of Prof. Lloyd Knox, my research focuses on building statistical and generative models to extract cosmological information from small–scale Cosmic Microwave Background (CMB) data.
 
 Some of my research interests are:
+
 - Simulation-based inference and lensing pipelines for SPT-3G and future surveys  
 - Generative models (VAEs, DDPMs) for non-Gaussian astrophysical foregrounds  
 - Scalable, reproducible workflows for high-dimensional cosmological parameter estimation 
 
 I am currently exploring opportunities in data science, AI/ML, and research, preferably in Chicago area.
+
 ---
 
 ### Education

@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - assets/**
   
 website:
   title: "Karthik Prabhu Palimar"
@@ -21,7 +23,7 @@ website:
         href: projects.qmd
   page-footer:
     left: "Copyright 2025, Karthik Prabhu Palimar."
-  image: avatar.jpg
+  image: assets/avatar.jpg
 
 # Global HTML metadata (applies to all pages)
 metadata:
