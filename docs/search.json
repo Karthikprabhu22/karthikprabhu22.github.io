@@ -2,44 +2,44 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "title": "Projects",
     "section": "",
-    "text": "Tech stack: Python · PyTorch · Accelerate · DDPMs\nGitHub\n\nBuilt diffusion models to learn the joint non-Gaussian distribution of Cosmic Infrared Background (CIB) and tSZ maps from the Agora simulations.\n\nGenerated fast, realistic CIB–tSZ samples that match 2-point, 3-point, and 4-point statistics of the training data.\n\nIntegrated DDPM-generated maps into lensing pipelines, reducing bias in reconstructed lensing power spectra on small angular scales."
+    "text": "Tech stack: PyTorch · Accelerate · DDPMs\nGitHub\n\nBuilt diffusion models to learn the joint non-Gaussian distribution of Cosmic Infrared Background (CIB) and tSZ maps from the Agora simulations.\n\nGenerated fast, realistic CIB–tSZ samples that match 2-point, 3-point, and 4-point statistics of the training data.\n\nIntegrated DDPM-generated maps into lensing pipelines, reducing bias in reconstructed lensing power spectra on small angular scales."
   },
   {
     "objectID": "projects.html#modeling-non-gaussian-extragalactic-foregrounds-with-ddpms",
     "href": "projects.html#modeling-non-gaussian-extragalactic-foregrounds-with-ddpms",
-    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "title": "Projects",
     "section": "",
-    "text": "Tech stack: Python · PyTorch · Accelerate · DDPMs\nGitHub\n\nBuilt diffusion models to learn the joint non-Gaussian distribution of Cosmic Infrared Background (CIB) and tSZ maps from the Agora simulations.\n\nGenerated fast, realistic CIB–tSZ samples that match 2-point, 3-point, and 4-point statistics of the training data.\n\nIntegrated DDPM-generated maps into lensing pipelines, reducing bias in reconstructed lensing power spectra on small angular scales."
+    "text": "Tech stack: PyTorch · Accelerate · DDPMs\nGitHub\n\nBuilt diffusion models to learn the joint non-Gaussian distribution of Cosmic Infrared Background (CIB) and tSZ maps from the Agora simulations.\n\nGenerated fast, realistic CIB–tSZ samples that match 2-point, 3-point, and 4-point statistics of the training data.\n\nIntegrated DDPM-generated maps into lensing pipelines, reducing bias in reconstructed lensing power spectra on small angular scales."
   },
   {
     "objectID": "projects.html#forecasting-λcdm-cosmological-constraints-with-spt-3g",
     "href": "projects.html#forecasting-λcdm-cosmological-constraints-with-spt-3g",
-    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "title": "Projects",
     "section": "Forecasting ΛCDM Cosmological Constraints with SPT-3G*",
     "text": "Forecasting ΛCDM Cosmological Constraints with SPT-3G*\nTech stack: Python · Julia · Statistical Inference\nGitHub\n\nDeveloped a covariance and parameter-forecasting framework for upcoming SPT-3G temperature, polarization, and lensing data.\n\nImplemented optimal joint estimation of auto/cross-frequency covariance matrices for lensing and unlensed bandpowers.\n\nProduced forecasts showing up to \\(\\sim 2 \\times\\) tighter parameter constraints relative to Planck alone, enabling robust consistency tests of \\(\\Lambda\\)CDM and its extensions."
   },
   {
     "objectID": "projects.html#generative-modeling-of-galactic-dust-with-variational-autoencoders",
     "href": "projects.html#generative-modeling-of-galactic-dust-with-variational-autoencoders",
-    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "title": "Projects",
     "section": "Generative Modeling of Galactic Dust with Variational Autoencoders",
     "text": "Generative Modeling of Galactic Dust with Variational Autoencoders\nTech stack: Python · TensorFlow · CUDA · VAEs\nGitHub\n\nTrained VAEs to model Galactic dust emission maps from Planck observations.\n\nDemonstrated the ability to generate new dust realizations, reconstruct withheld maps, and perform constrained realizations.\n\nProvided generative tools useful for simulation-based inference and foreground-cleaning tests for CMB experiments."
   },
   {
     "objectID": "projects.html#pawsitive-retrieval-rag-system-over-5.5m-reddit-posts",
     "href": "projects.html#pawsitive-retrieval-rag-system-over-5.5m-reddit-posts",
-    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "title": "Projects",
     "section": "Pawsitive Retrieval — RAG System over 5.5M Reddit Posts",
-    "text": "Pawsitive Retrieval — RAG System over 5.5M Reddit Posts\nTech stack: NLP · HuggingFace · AWS · LanceDB\nGitHub\n\nCleaned, normalized, and indexed a dataset of ~5.5M Reddit posts for large-scale retrieval experiments.\n\nFine-tuned a domain-specific embedding model for semantic search and question answering.\n\nAchieved a 10–15% improvement in retrieval quality (MRR, NDCG) relative to baseline transformer embeddings."
+    "text": "Pawsitive Retrieval — RAG System over 5.5M Reddit Posts\nTech stack: NLP · HuggingFace · LanceDB · LangChain GitHub\n\nCleaned, normalized, and indexed a dataset of ~5.5M Reddit posts for large-scale retrieval experiments.\n\nFine-tuned a domain-specific embedding model for semantic search and question answering.\n\nAchieved a 10–15% improvement in retrieval quality (MRR, NDCG) relative to baseline transformer embeddings."
   },
   {
     "objectID": "projects.html#bayesian-inference-pipeline-for-cmb-lensing",
     "href": "projects.html#bayesian-inference-pipeline-for-cmb-lensing",
-    "title": "Projects — Cosmology, DDPMs, VAEs, RAG Systems",
+    "title": "Projects",
     "section": "Bayesian Inference Pipeline for CMB Lensing",
-    "text": "Bayesian Inference Pipeline for CMB Lensing\nTech stack: Julia · Differentiable Statistics\nGitHub\n\nApplied differentiable likelihood methods to extract non-Gaussian information from CMB temperature maps.\n\nImproved constraints on lensing amplitude and higher-order CMB statistics beyond traditional two-point analyses.\n\nWorked toward scalable, simulation-based inference techniques for next-generation CMB datasets.\n\n\n*Private project repositories — contact me for access."
+    "text": "Bayesian Inference Pipeline for CMB Lensing\nTech stack: Julia · CUDA · Bayesian Inference\nGitHub\n\nApplied differentiable likelihood methods to extract non-Gaussian information from CMB temperature maps.\n\nImproved constraints on lensing amplitude and higher-order CMB statistics beyond traditional two-point analyses.\n\nWorked toward scalable, simulation-based inference techniques for next-generation CMB datasets.\n\n\n*Private project repositories — contact me for access."
   },
   {
     "objectID": "index.html",

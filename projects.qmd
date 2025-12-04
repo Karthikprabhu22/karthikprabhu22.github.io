@@ -1,5 +1,5 @@
 ---
-title: "Projects — Cosmology, DDPMs, VAEs, RAG Systems"
+title: "Projects"
 page-layout: full
 format:
   html:
@@ -7,7 +7,7 @@ format:
 ---
 
 ## Modeling Non-Gaussian Extragalactic Foregrounds with DDPMs*  
-**Tech stack:** Python · PyTorch · Accelerate · DDPMs  
+**Tech stack:** PyTorch · Accelerate · DDPMs  
 [GitHub](https://github.com/Karthikprabhu22/diffusion_model)
 
 - Built diffusion models to learn the joint non-Gaussian distribution of Cosmic Infrared Background (CIB) and tSZ maps from the Agora simulations.  
@@ -33,7 +33,7 @@ format:
 
 
 ## Pawsitive Retrieval — RAG System over 5.5M Reddit Posts  
-**Tech stack:** NLP · HuggingFace · AWS · LanceDB  
+**Tech stack:** NLP · HuggingFace · LanceDB · LangChain
 [GitHub](https://github.com/Karthikprabhu22/erdos_paware)
 
 - Cleaned, normalized, and indexed a dataset of ~5.5M Reddit posts for large-scale retrieval experiments.  
@@ -41,7 +41,7 @@ format:
 - Achieved a **10–15% improvement** in retrieval quality (MRR, NDCG) relative to baseline transformer embeddings.
 
 ## Bayesian Inference Pipeline for CMB Lensing  
-**Tech stack:** Julia · Differentiable Statistics  
+**Tech stack:** Julia · CUDA · Bayesian Inference  
 [GitHub](https://github.com/marius311/CMBLensing.jl)
 
 - Applied differentiable likelihood methods to extract non-Gaussian information from CMB temperature maps.  

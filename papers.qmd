@@ -18,7 +18,7 @@ format:
 
 **Role:** Led the project and model development, including DDPM architecture choices, training/evaluation pipeline, and cosmology validation tests.
 
-![](assets/ddpm.jpeg){.paper-thumbnail}
+![](images/ddpm.jpeg){.paper-thumbnail fig-alt="DDPM generated samples"}
 :::
 
 ::: {.publication}
@@ -33,7 +33,7 @@ format:
 
 **Role:** Lead author on the forecasting pipeline and covariance framework, responsible for parameter-forecast machinery, bandpower covariances, and consistency tests between SPT-3G and Planck.
 
-![](assets/forecasts.png){.paper-thumbnail}
+![](images/forecasts.png){.paper-thumbnail fig-alt="Comparison of constraints from SPT-3G vs Planck"}
 :::
 
 ::: {.publication}
@@ -48,5 +48,5 @@ B. Thorne, L. Knox, **K. Prabhu Palimar**
 
 **Role:** Contributed to model development, training and evaluation strategy, and analysis of how VAE-generated maps reproduce dust statistics relevant for CMB foreground studies.
 
-![](assets/vae.png){.paper-thumbnail}
+![](images/vae.png){.paper-thumbnail fig-alt="VAE-generated dust emission samples"}
 :::
