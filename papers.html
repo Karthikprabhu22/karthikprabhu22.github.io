@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects — Cosmology, DDPMs, VAEs, RAG Systems – Karthik Prabhu Palimar</title>
+<title>Research Publications – Karthik Prabhu Palimar</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,40 +70,11 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Projects — Cosmology, DDPMs, VAEs, RAG Systems – Karthik Prabhu Palimar">
+<meta property="og:title" content="Research Publications – Karthik Prabhu Palimar">
 <meta property="og:description" content="Physics PhD | CMB Cosmology, Machine Learning, Generative Models, Statistical Inference">
-<meta property="og:image" content="https://karthikprabhu22.github.io/avatar.jpg">
+<meta property="og:image" content="https://karthikprabhu22.github.io/assets/ddpm.jpeg">
 <meta property="og:site_name" content="Karthik Prabhu Palimar">
 <link rel="canonical" href="https://karthikprabhu22.github.io/papers.html">
 </head>
@@ -148,7 +119,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects — Cosmology, DDPMs, VAEs, RAG Systems</h1>
+<h1 class="title">Research Publications</h1>
 </div>
 
 
@@ -165,72 +136,35 @@ window.Quarto = {
 </header>
 
 
-<section id="modeling-non-gaussian-extragalactic-foregrounds-with-ddpms" class="level2">
-<h2 class="anchored" data-anchor-id="modeling-non-gaussian-extragalactic-foregrounds-with-ddpms">Modeling Non-Gaussian Extragalactic Foregrounds with DDPMs</h2>
-<p><strong>Tech stack:</strong> Python · PyTorch · Accelerate · DDPMs<br>
-<a href="https://github.com/Karthikprabhu22/diffusion_model">GitHub (private repo; contact me for access)</a></p>
-<ul>
-<li>Built diffusion models to learn the joint non-Gaussian distribution of Cosmic Infrared Background (CIB) and tSZ maps from the Agora simulations.<br>
-</li>
-<li>Generated fast, realistic CIB–tSZ samples that match 2-point, 3-point, and 4-point statistics of the training data.<br>
-</li>
-<li>Integrated DDPM-generated maps into lensing pipelines, reducing bias in reconstructed lensing power spectra on small angular scales.</li>
-</ul>
-<hr>
+<section id="learning-correlated-astrophysical-foregrounds-with-denoising-diffusion-probabilistic-models" class="level3 publication">
+<h3 class="anchored" data-anchor-id="learning-correlated-astrophysical-foregrounds-with-denoising-diffusion-probabilistic-models">Learning correlated astrophysical foregrounds with denoising diffusion probabilistic models</h3>
+<p><strong>K. Prabhu Palimar</strong>, S. Raghunathan, E. Anderes, L. Knox</p>
+<p><em>Journal of Cosmology and Astroparticle Physics (JCAP), 09 (2025) 012</em><br>
+<a href="https://iopscience.iop.org/article/10.1088/1475-7516/2025/09/012">Journal</a> · <a href="https://arxiv.org/abs/2506.09036">arXiv:2506.09036</a></p>
+<p><em>Extragalactic foregrounds such as the Cosmic Infrared Background (CIB) and thermal Sunyaev-Zel’dovich (tSZ) effect have highly non-Gaussian structure and correlations that can bias small-scale CMB analyses. In this work we train denoising diffusion probabilistic models (DDPMs) on paired CIB–tSZ patches from the Agora simulations to learn their full joint distribution. The trained models generate fast, realistic foreground maps that reproduce auto- and cross-spectra, higher-order statistics, and Minkowski functionals, providing a path toward forward-modelling correlated extragalactic foregrounds in CMB lensing pipelines.</em></p>
+<p><strong>Role:</strong> Led the project and model development, including DDPM architecture choices, training/evaluation pipeline, and cosmology validation tests.</p>
+<p><img src="assets/ddpm.jpeg" class="paper-thumbnail img-fluid"></p>
 </section>
-<section id="forecasting-λcdm-cosmological-constraints-with-spt-3g" class="level2">
-<h2 class="anchored" data-anchor-id="forecasting-λcdm-cosmological-constraints-with-spt-3g">Forecasting ΛCDM Cosmological Constraints with SPT-3G</h2>
-<p><strong>Tech stack:</strong> Python · Julia · Statistical Inference<br>
-<a href="https://github.com/Karthikprabhu22/spt3g_forecasting_paper">GitHub (private repo; contact me for access)</a></p>
-<ul>
-<li>Developed a covariance and parameter-forecasting framework for upcoming SPT-3G temperature, polarization, and lensing data.<br>
-</li>
-<li>Implemented optimal joint estimation of auto/cross-frequency covariance matrices for lensing and unlensed bandpowers.<br>
-</li>
-<li>Produced forecasts showing up to <span class="math inline">\(\sim 2 \times\)</span> tighter parameter constraints relative to Planck alone, enabling robust consistency tests of <span class="math inline">\(\Lambda\)</span>CDM and its extensions.</li>
-</ul>
-<hr>
+<section id="testing-the-cdm-cosmological-model-with-forthcoming-measurements-of-the-cmb-with-spt-3g" class="level3 publication">
+<h3 class="anchored" data-anchor-id="testing-the-cdm-cosmological-model-with-forthcoming-measurements-of-the-cmb-with-spt-3g">Testing the ()CDM cosmological model with forthcoming measurements of the CMB with SPT-3G</h3>
+<p><strong>K. Prabhu Palimar</strong> <em>et al.</em></p>
+<p><em>The Astrophysical Journal, 973 (2024) 4</em><br>
+<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad5ff1">Journal</a> · <a href="https://arxiv.org/abs/2403.17925">arXiv:2403.17925</a></p>
+<p><em>We forecast cosmological parameter constraints from three SPT-3G surveys covering a combined 25% of the sky at multiple frequencies and depths. Using a novel approach to jointly model the covariance of CMB temperature, polarization, and lensing potential bandpowers, we test ()CDM via the consistency of parameters constrained independently from SPT-3G and Planck. We also quantify the improvement on ()CDM extension parameters from a combined SPT-3G + Planck analysis, finding uncertainties up to roughly a factor of two smaller than Planck alone while probing complementary angular scales and polarization levels.</em></p>
+<p><strong>Role:</strong> Lead author on the forecasting pipeline and covariance framework, responsible for parameter-forecast machinery, bandpower covariances, and consistency tests between SPT-3G and Planck.</p>
+<p><img src="assets/forecasts.png" class="paper-thumbnail img-fluid"></p>
 </section>
-<section id="generative-modeling-of-galactic-dust-with-variational-autoencoders" class="level2">
-<h2 class="anchored" data-anchor-id="generative-modeling-of-galactic-dust-with-variational-autoencoders">Generative Modeling of Galactic Dust with Variational Autoencoders</h2>
-<p><strong>Tech stack:</strong> Python · TensorFlow · CUDA · VAEs<br>
-<a href="https://github.com/b-thorne/DustVAEder">GitHub</a></p>
-<ul>
-<li>Trained VAEs to model Galactic dust emission maps from Planck observations.<br>
-</li>
-<li>Demonstrated the ability to generate new dust realizations, reconstruct withheld maps, and perform constrained realizations.<br>
-</li>
-<li>Provided generative tools useful for simulation-based inference and foreground-cleaning tests for CMB experiments.</li>
-</ul>
-<hr>
+<section id="a-generative-model-of-galactic-dust-emission-using-variational-autoencoders" class="level3 publication">
+<h3 class="anchored" data-anchor-id="a-generative-model-of-galactic-dust-emission-using-variational-autoencoders">A generative model of Galactic dust emission using variational autoencoders</h3>
+<p>B. Thorne, L. Knox, <strong>K. Prabhu Palimar</strong></p>
+<p><em>Monthly Notices of the Royal Astronomical Society (MNRAS), 504 (2021) 2603–2613</em><br>
+<a href="https://academic.oup.com/mnras/article/504/2/2603/6223441">Journal</a> · <a href="https://arxiv.org/abs/2101.11181">arXiv:2101.11181</a></p>
+<p><em>We apply variational autoencoders (VAEs) to maps of Galactic dust emission inferred from Planck data to build a generative model of the dust intensity field. The trained VAE can generate new dust realizations that match key summary statistics of the training maps, fit withheld maps, and produce constrained realizations conditioned on observations. This work demonstrates that deep generative models can capture the non-Gaussian structure of Galactic dust in a way that is useful for CMB foreground modelling and experimental design.</em></p>
+<p><strong>Role:</strong> Contributed to model development, training and evaluation strategy, and analysis of how VAE-generated maps reproduce dust statistics relevant for CMB foreground studies.</p>
+<p><img src="assets/vae.png" class="paper-thumbnail img-fluid"></p>
 </section>
-<section id="pawsitive-retrieval-rag-system-over-5.5m-reddit-posts" class="level2">
-<h2 class="anchored" data-anchor-id="pawsitive-retrieval-rag-system-over-5.5m-reddit-posts">Pawsitive Retrieval — RAG System over 5.5M Reddit Posts</h2>
-<p><strong>Tech stack:</strong> NLP · HuggingFace · AWS · LanceDB<br>
-<a href="https://github.com/marcoswastaken/erdos_paware">GitHub</a></p>
-<ul>
-<li>Cleaned, normalized, and indexed a dataset of ~5.5M Reddit posts for large-scale retrieval experiments.<br>
-</li>
-<li>Fine-tuned a domain-specific embedding model for semantic search and question answering.<br>
-</li>
-<li>Achieved a <strong>10–15% improvement</strong> in retrieval quality (MRR, NDCG) relative to baseline transformer embeddings.</li>
-</ul>
-<hr>
-</section>
-<section id="bayesian-inference-pipeline-for-cmb-lensing" class="level2">
-<h2 class="anchored" data-anchor-id="bayesian-inference-pipeline-for-cmb-lensing">Bayesian Inference Pipeline for CMB Lensing</h2>
-<p><strong>Tech stack:</strong> Julia · Differentiable Statistics<br>
-<a href="https://github.com/marius311/CMBLensing.jl">GitHub</a></p>
-<ul>
-<li>Applied differentiable likelihood methods to extract non-Gaussian information from CMB temperature maps.<br>
-</li>
-<li>Improved constraints on lensing amplitude and higher-order CMB statistics beyond traditional two-point analyses.<br>
-</li>
-<li>Worked toward scalable, simulation-based inference techniques for next-generation CMB datasets.</li>
-</ul>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
