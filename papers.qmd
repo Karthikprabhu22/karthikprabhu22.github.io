@@ -6,7 +6,15 @@ format:
     css: styles.css
 ---
 ::: {.publication}
-### [Testing the ΛCDM Cosmological Model with SPT-3G](https://arxiv.org/abs/2403.17925) <span class="arxiv-badge">arXiv:2403.17925</span>
+### [Learning correlated astrophysical foregrounds with denoising diffusion probabilistic models](https://arxiv.org/abs/2506.09036) <span class="arxiv-badge">arXiv:2506.09036</span>
+**K. Prabhu Palimar, S. Raghunathan, E. Anderes, L. Knox**  
+*Extragalactic foregrounds -- most notably the Cosmic Infrared Background (CIB) and the thermal Sunyaev-Zel'dovich (tSZ) effect -- exhibit complex, non-Gaussian structure and correlations that can bias analyses of small-scale cosmic microwave background (CMB) temperature anisotropies. These foregrounds can introduce mode coupling at small-scales that mimic true lensing signals, thereby complicating analyses such as CMB lensing reconstruction. We present a novel approach to learn their full joint distribution using Denoising Diffusion Probabilistic Models (DDPMs) trained on paired CIB-tSZ patches at 150 GHz, from the Agora suite of extragalactic sky simulations. While simulations like Agora, which are based on N-body calculations, can take thousands of CPU hours, DDPM can synthesize realistic CIB-tSZ patches that faithfully reproduce both auto- and cross-spectral statistics of the 2-point, 3-point, and 4-point correlation functions, in a matter of seconds. We further demonstrate matching pixel-value histograms and Minkowski functionals, confirming that conventional non-Gaussian benchmarks are also satisfied. This framework provides a powerful generative tool for forward-modeling correlated extragalactic foregrounds in current and future CMB analyses. We also outline remaining challenges to their practical deployment in analysis pipelines, such as scaling to larger sky areas and reliance on the underlying cosmological and astrophysical assumptions in the simulations used for training.*
+
+![](vae.png){.paper-thumbnail}
+:::
+
+::: {.publication}
+### [Testing the $\Lambda$CDM Cosmological Model with SPT-3G](https://arxiv.org/abs/2403.17925) <span class="arxiv-badge">arXiv:2403.17925</span>
 **K. Prabhu Palimar** et al.  
 *We forecast constraints on cosmological parameters enabled by three surveys conducted with SPT-3G, the third-generation camera on the South Pole Telescope. The surveys cover separate regions of 1500, 2650, and 6000 ${\rm deg}^{2}$ to different depths, in total observing 25% of the sky. These regions will be measured to white noise levels of roughly 2.5, 9, and 12 $\mu{\rm K-arcmin}$, respectively, in CMB temperature units at 150 GHz by the end of 2024. The survey also includes measurements at 95 and 220 GHz, which have noise levels a factor of $\sim$1.2 and 3.5 times higher than 150 GHz, respectively, with each band having a polarization noise level $\sim \sqrt{2}$ times higher than the temperature noise. We use a novel approach to obtain the covariance matrices for jointly and optimally estimated gravitational lensing potential bandpowers and unlensed CMB temperature and polarization bandpowers. We demonstrate the ability to test the $\Lambda{\rm CDM}$ model via the consistency of cosmological parameters constrained independently from SPT-3G and Planck data, and consider the improvement in constraints on $\Lambda{\rm CDM}$ extension parameters from a joint analysis of the SPT-3G and Planck data. The $\Lambda{\rm CDM}$ cosmological parameters are typically constrained with uncertainties up to $\sim$2 times smaller with SPT-3G data, compared to Planck, with the two data sets measuring  significantly different angular scales and polarization levels, providing additional tests of the standard cosmological model.*
 
@@ -20,3 +28,4 @@ format:
 
 ![](vae.png){.paper-thumbnail}
 :::
+
