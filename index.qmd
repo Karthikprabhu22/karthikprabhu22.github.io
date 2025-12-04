@@ -33,7 +33,7 @@ Some of my research interests are:
 - Generative models (VAEs, DDPMs) for non-Gaussian astrophysical foregrounds  
 - Scalable, reproducible workflows for high-dimensional cosmological parameter estimation 
 
-I am currently exploring data science and AI/ML roles in industry, along with postdoctoral roles, preferably in Chicago area, starting in 2026.
+I am currently exploring opportunities in data science, AI/ML, and research, preferably in Chicago area.
 ---
 
 ### Education
