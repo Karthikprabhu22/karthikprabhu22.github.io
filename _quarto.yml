@@ -34,7 +34,7 @@ metadata:
 format:
   html:
     theme:
-      light: cosmo
+      light: flatly
     css: styles.css
     toc: false
     smooth-scroll: true
