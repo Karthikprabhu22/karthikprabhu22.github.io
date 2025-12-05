@@ -33,9 +33,13 @@ metadata:
 
 format:
   html:
+    backgroundcolor" : "#eeffee"
     theme:
       light: flatly
     css: styles.css
+    markdown:
+      extensions:
+        - raw_html
     toc: false
     smooth-scroll: true
     link-external-icon: true

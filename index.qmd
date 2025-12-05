@@ -1,10 +1,11 @@
 ---
 title: "Karthik Prabhu Palimar"
-subtitle: "PhD Physics, UC Davis (Dec 2025) | Cosmology | Machine Learning | HPC"
+subtitle: "PhD Physics, UC Davis (Dec 2025)  Cosmology | Machine Learning | HPC"
+page-layout: full
 image: images/avatar.jpg
 about:
   template: trestles
-  image-width: 12em
+  image-width: 9em
   image-shape: round
   links:
     - icon: linkedin
@@ -25,9 +26,12 @@ about:
     - icon: file-earmark-text
       text: CV
       href: images/KP_CV.pdf
-
+format:
+  html:
+    theme: flatly # or whatever you’re using
+    css: styles.css
 ---
-I am a Ph.D. candidate in Physics at the University of California, Davis, working at the intersection of CMB cosmology and machine learning. Under the supervision of Prof. Lloyd Knox, my research focuses on building statistical and generative models to extract cosmological information from small–scale Cosmic Microwave Background (CMB) data. Currently exploring opportunities in data science, AI/ML, and research, preferably in Chicago area.
+I am a Ph.D. candidate in Physics at the University of California, Davis, working at the intersection of CMB cosmology and machine learning. My research focuses on building statistical and generative models to extract cosmological information from the Cosmic Microwave Background (CMB) data. I am currently exploring opportunities in data science, AI/ML, and research, preferably in Chicago area .
 
 
 Some of my research interests are:
@@ -36,18 +40,16 @@ Some of my research interests are:
 - Generative models (VAEs, DDPMs) for non-Gaussian astrophysical foregrounds  
 - Scalable, reproducible workflows for high-dimensional cosmological parameter estimation 
 
+Contact: kprabhu[at]ucdavis[dot]edu
+
 ---
 
 ### Education
 ::: {.education-entry}
-**University of California, Davis** | Davis, CA<br>
-PhD in Physics<br>
-Sept 2018 - Dec 2025
-Advisor: Prof. Lloyd Knox
+**Ph.D. (Physics)** | Sept 2018 - Dec 2025 <br>
+University of California, Davis | Davis, CA
 :::
-
 :::{.education-entry}
-**Indian Institute of Science Education and Research (IISER)** | Pune, India<br>
-B.S.-M.S. in Natural Sciences<br>
-Aug 2013 - May 2018
+**B.S.-M.S.**   | Aug 2013 - May 2018 <br>
+Indian Institute of Science Education and Research (IISER) | Pune, India
 :::
