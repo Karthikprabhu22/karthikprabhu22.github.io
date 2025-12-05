@@ -1,5 +1,17 @@
 /* css styles */
 /* styles.css */
+
+@media (min-width: 900px) {
+  .page-columns {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+}
+
+.sidebar {
+  display: none !important;
+}
+
 .quarto-about-trestles {
   display: flex;
   gap: 2rem;          /* space between columns */
