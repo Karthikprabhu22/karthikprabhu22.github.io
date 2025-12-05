@@ -1,6 +1,6 @@
 ---
 title: "Karthik Prabhu Palimar"
-subtitle: "PhD Physics, UC Davis (Dec 2025)  Cosmology | Machine Learning | HPC"
+subtitle: "PhD Physics, UC Davis (Dec 2025) <br> Cosmology | Machine Learning | HPC"
 page-layout: full
 image: images/avatar.jpg
 about:
