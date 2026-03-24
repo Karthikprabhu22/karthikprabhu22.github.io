@@ -1,6 +1,6 @@
 ---
 title: "Karthik Prabhu Palimar"
-subtitle: "Associate, Fraud Analytics at Avant <br> Machine Learning | Risk Modeling | Statistics <br> PhD Physics, UC Davis (Dec 2025)"
+subtitle: "Associate, Fraud Analytics at Avant <br> Risk Modeling | Statistics | ML <br> PhD Physics, UC Davis (Dec 2025)"
 page-layout: full
 image: images/avatar.jpg
 about:
