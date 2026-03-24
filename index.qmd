@@ -1,6 +1,6 @@
 ---
 title: "Karthik Prabhu Palimar"
-subtitle: "PhD Physics, UC Davis (Dec 2025) <br> Cosmology | Machine Learning | HPC"
+subtitle: "Associate, Fraud Analytics at Avant <br> Machine Learning | Risk Modeling | Statistics <br> PhD Physics, UC Davis (Dec 2025)"
 page-layout: full
 image: images/avatar.jpg
 about:
@@ -31,16 +31,25 @@ format:
     theme: flatly # or whatever you’re using
     css: styles.css
 ---
-I am a Ph.D. candidate in Physics at the University of California, Davis, working at the intersection of CMB cosmology and machine learning. My research focuses on building statistical and generative models to extract cosmological information from the Cosmic Microwave Background (CMB) data. I am currently exploring opportunities in data science, AI/ML, and research, preferably in Chicago area .
+I am an Associate in Fraud Analytics at Avant, where I develop data-driven methods for fraud detection, risk assessment, and decision-making. My work focuses on applying statistical modeling and machine learning to real-world transactional data, with an emphasis on building robust, scalable systems.
 
+Prior to this, I completed my Ph.D. in Physics at the University of California, Davis, where I worked on high-dimensional statistical inference and machine learning models in cosmology.
+<!--
+I am a Ph.D. candidate in Physics at the University of California, Davis, working at the intersection of CMB cosmology and machine learning. My research focuses on building statistical and generative models to extract cosmological information from the Cosmic Microwave Background (CMB) data. I am currently exploring opportunities in data science, AI/ML, and research, preferably in Chicago area .
+-->
 
 Some of my research interests are:
-
+- Fraud detection and risk modeling
+- Machine learning for decision systems
+- Statistical inference and model evaluation
+- Large-scale data analysis and experimentation
+<!--
 - Simulation-based inference and lensing pipelines for SPT-3G and future surveys  
 - Generative models (VAEs, DDPMs) for non-Gaussian astrophysical foregrounds  
 - Scalable, reproducible workflows for high-dimensional cosmological parameter estimation 
+-->
 
-Contact: kprabhu[at]ucdavis[dot]edu
+Contact: karthikprabhu22[at]gmail[dot]com
 
 ---
 
