@@ -1,8 +1,8 @@
 ---
 title: "Karthik Prabhu Palimar"
-subtitle: "Associate, Fraud Analytics at Avant <br> Risk Modeling | Statistics | ML <br> PhD Physics, UC Davis (Dec 2025)"
+subtitle: "Associate, Fraud Analytics at Avant <br> Risk Modeling | Statistics | ML <br> PhD Physics, UC Davis"
 page-layout: full
-image: images/avatar.jpg
+image: images/avatar.jpeg
 about:
   template: trestles
   image-width: 9em
@@ -39,6 +39,7 @@ I am a Ph.D. candidate in Physics at the University of California, Davis, workin
 -->
 
 Some of my research interests are:
+
 - Fraud detection and risk modeling
 - Machine learning for decision systems
 - Statistical inference and model evaluation
